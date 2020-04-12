@@ -146,10 +146,10 @@ if __name__ == '__main__':
     count = 0
     for i in shreds1:
         resized = cv2.resize(i, uniformSize, interpolation = cv2.INTER_AREA)
-        cv2.imwrite(f"/home/sean/Desktop/testImages/out/{count}.png", resized)
+        cv2.imwrite(f"../testImages/out/{count}.png", resized)
         count += 1
     for j in shreds2:
         resized = cv2.resize(j, uniformSize, interpolation = cv2.INTER_AREA)
-        cv2.imwrite(f"/home/sean/Desktop/testImages/out/{count}.png", resized)
+        cv2.imwrite(f"../testImages/out/{count}.png", resized)
         count += 1
 
