@@ -83,13 +83,14 @@ def unShred(shreds, similarity):
     # Sort the potential pairings by structural similarity score
     for j in sorted(similarity, key=lambda d: list(d.keys())):
         # If the number of shred x 2 is equal to the amount of merged shreds
-        if len(merged) == len(shreds) * 2:
+        if len(merged) == len(shreds) - 1:
             break
         for tup in j:
             # Attempt to ignore high scores (blank shreds)
             if tup <= 10.0:
                 continue
-
+            if tup > 10000:
+                break
             l = j[tup][0]
             r = j[tup][1]
 
@@ -108,13 +109,13 @@ def unShred(shreds, similarity):
 
                 # Combine left and right shreds
                 shreds[x]['image'] = combine(shreds[l]['image'], shreds[x]['image']) 
-      
+                #displayImage(shreds[x]['image'], 10000)
                 point[l] = r
                 finalIndex = x
             else:
                 # Combine left and right shreds
                 shreds[r]['image'] = combine(shreds[l]['image'], shreds[r]['image'])
-
+                #displayImage(shreds[r]['image'], 10000)
                 point[l] = r
                 finalIndex = r 
 
@@ -128,7 +129,7 @@ def unShred(shreds, similarity):
 
 if __name__ == '__main__':
     # Path to directory where extracted shreds are present
-    path = "../testImages/perfect/*"
+    path = "../testImages/perf/*"
 
     # Gather extracted shreds
     shreds = getShreds(path)
