@@ -21,6 +21,9 @@ The first tool was derived from the [Instagram Engineering Challenge: The Unshre
 ![Instagram Challenge](https://raw.githubusercontent.com/sseanik/Paper-Reconstructor/master/testImages/instaChal.png "Instagram Challenge")
 
 
+**Visual Demo (with merging shown):**
+
+
 ![Alt Text](https://im7.ezgif.com/tmp/ezgif-7-7b4e7cc0538f.gif)
 
 
