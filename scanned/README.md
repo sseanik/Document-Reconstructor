@@ -7,6 +7,7 @@ Note:
 * HP Deskjet F2180 All in One Printer used to Scan images
 * Images scanned to 600 DPI, Colour and PNG file type
 
+
 In extractShreds.py:
 
 ```python
