@@ -5,7 +5,7 @@ import glob
 
 
 #https://instagram-engineering.com/instagram-engineering-challenge-the-unshredder-7ef3f7323ab1
-def shredImage(sequence, outputPath):
+def shredImage(sequence, outputPath, demoPath):
     # Create jumbled shred fiiles
     for i, shred_index in enumerate(sequence):
         # Calculate the dimensions of each shred and it's shuffled order
@@ -15,6 +15,8 @@ def shredImage(sequence, outputPath):
         # Crop the shred region and save it
         region = image.crop((shred_x1, shred_y1, shred_x2, shred_y2))
         region.save(f"{outputPath + str(i)}.png")
+        shredded.paste(region, (shred_width * i, 0))
+        shredded.save(demoPath)
 
 if __name__ == '__main__':
 
@@ -37,16 +39,17 @@ if __name__ == '__main__':
         SHREDS = width // 14
 
     # Shuffle a list of a range between 0 and the shred value given
-    sequence = list(range(0, SHREDS + 1))
+    sequence = list(range(0, SHREDS))
     random.shuffle(sequence)
 
     # Save the shuffled/shredded file
     outputPath = "../testImages/perf/"
+    demoPath = "../testImages/perfDemo.png"
 
     # Remove all files from output directory
     files = glob.glob(f"{outputPath}*")
     for f in files:
         os.remove(f)
 
-    shredImage(sequence, outputPath)
+    shredImage(sequence, outputPath, demoPath)
 
