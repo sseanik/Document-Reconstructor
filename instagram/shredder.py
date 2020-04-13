@@ -27,7 +27,6 @@ if __name__ == '__main__':
     shredded = Image.new('RGBA', image.size)
 
     # Gather the width, height and the shred width depending on the shred value
-    SHREDS //= 2
     width, height = image.size
     shred_width = width // SHREDS
 
