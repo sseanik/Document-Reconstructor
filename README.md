@@ -76,6 +76,12 @@ something
 something
 
 
+**Edge Detection**
+
+
+something
+
+
 **Four Point Transform**
 
 
