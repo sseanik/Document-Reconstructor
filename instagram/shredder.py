@@ -19,7 +19,7 @@ if __name__ == '__main__':
 
     # Determine how many shreds to split the image into
     SHREDS = 10
-    path = "../testImages/toshred.png"
+    path = "../testImages/insta.png"
 
     # Open the image
     image = Image.open(path)
@@ -34,6 +34,6 @@ if __name__ == '__main__':
     random.shuffle(sequence)
 
     # Save the shuffled/shredded file
-    outputPath = "../testImages/finishshred.png"
+    outputPath = "../testImages/insta.png"
     shredImage(sequence, outputPath)
 

@@ -138,7 +138,7 @@ if __name__ == '__main__':
     width, height = image.size
 
     # Given shred width of image
-    shred_width = width // SHREDS
+    shred_width = 25
 
     # Crop shreds
     shreds = getShreds(image, shred_width)
