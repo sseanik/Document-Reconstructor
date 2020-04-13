@@ -68,6 +68,9 @@ deShredScanned.py would then calculate the similarity scores based on the compar
 ![Scanned document 2](https://raw.githubusercontent.com/sseanik/Paper-Reconstructor/master/testImages/countourShow2.png "Scanned recontruction")
 
 
+**Manual confirmation constructed Image:**
+
+
 ![Scanned recontruction](https://raw.githubusercontent.com/sseanik/Paper-Reconstructor/master/testImages/forreadme.png "Scanned recontruction")
 
 
