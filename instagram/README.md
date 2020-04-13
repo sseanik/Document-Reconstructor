@@ -7,7 +7,7 @@ In shredder.py:
 SHREDS = 20
   
 # Change the path to the location of the destination of the shuffled image
-path = "../testImages/insta.png"
+path = "../testImages/instaout.png"
 ```
 
 
