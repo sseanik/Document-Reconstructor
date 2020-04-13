@@ -46,5 +46,8 @@ Two images of shreds on a pink background were then fed to the extractShreds.py 
 deShredScanned.py would then calculate the similarity scores based on the comparison of the left edge of a strip, to a right edge of a strip and then manual checking (automation was not possible due to time limits and constraints of scanner and shredding devices) would be needed to confirm if two shreds (potentially already previously merged) do in fact fit together.
 
 
+![Scanned recontruction](https://raw.githubusercontent.com/sseanik/Paper-Reconstructor/master/testImages/photo.png "Scanned recontruction")
+
+
 ![Scanned recontruction](https://raw.githubusercontent.com/sseanik/Paper-Reconstructor/master/testImages/forreadme.png "Scanned recontruction")
 
