@@ -47,7 +47,7 @@ The next tool was an iterative prototype, regarding finding an algorithm and a m
 **Visual Demo (with merging shown):**
 
 
-![Alt Text](https://im7.ezgif.com/tmp/ezgif-7-cc368b5165b6.gif)
+![Alt Text](https://im7.ezgif.com/tmp/ezgif-7-9238f79ebb60.gif)
 
 
 # Scanned shreds
