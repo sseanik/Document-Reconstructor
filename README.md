@@ -9,13 +9,13 @@ I was intrigued, so I wanted to learn about the possibility of programmatically 
 # Instagram Engineering Challenge
 The first tool was derived from the [Instagram Engineering Challenge: The Unshredder](https://instagram-engineering.com/instagram-engineering-challenge-the-unshredder-7ef3f7323ab1), where in 2012 it was posed to the public to 'unshred' a shuffled image. The winner(s) earned a free T-shirt prize, but unfortunately I a bit late to the party. shredder.py takes a source image, and shuffles it with a shred output number. challenge.py takes a shuffled image and a given a number of shreds, unshuffles the image. Descending order of structural similarity was used to determine if two shreds should be merged.
 
-Before:
+**Before:**
 
 
 ![Instagram Challenge](https://raw.githubusercontent.com/sseanik/Paper-Reconstructor/master/testImages/instaout2.png "Instagram Challenge")
 
 
-After:
+**After:**
 
 
 ![Instagram Challenge](https://raw.githubusercontent.com/sseanik/Paper-Reconstructor/master/testImages/instaChal.png "Instagram Challenge")
@@ -24,14 +24,14 @@ After:
 # Perfect Digital Shredding
 The next tool was an iterative prototype, regarding finding an algorithm and a method in shredding a shuffled (horizontally & one side) document. Photoshop slicing was used to begin with, but perfShredder.py was created to automate the process. These shreds (of no less than 14px) would lose no quality, have a perfect, straight, equal, rectangular shape and more emphasis was given to explore the algoirthms of 'Mean Squared Error' and 'Structural Similarity'. deShredPerfect.py takes a directory of 'perfect' shreds and automatically reconstructs the document based on the ascending Mean Squared Error comparisons of the left edge of a shred with the right edge of a shred. 
 
-Before:
+**Before:**
 
 
 ![Perfect Reconstruction](https://raw.githubusercontent.com/sseanik/Paper-Reconstructor/master/testImages/setup.png
  "Perfect Reconstruction")
 
 
-After:
+**After:**
 
 
 ![Perfect Reconstruction](https://raw.githubusercontent.com/sseanik/Paper-Reconstructor/master/testImages/recontructed.png "Perfect Reconstruction")
@@ -41,13 +41,13 @@ The next tool was an iterative prototype, regarding scanning in 'imperfect' shre
 
 
 
-Devices & Equipment used:
+**Devices & Equipment used:**
 
 
 ![Scanned recontruction](https://raw.githubusercontent.com/sseanik/Paper-Reconstructor/master/testImages/photo.png "Scanned recontruction")
 
 
-Note:
+**Note:**
 * Paper must be almost A4, cut off the top or bottom of empty bits if possible
 * Keji Strip Cut Shredder outputs approx 20 shreds
 * Blank side strips can be thrown away
@@ -60,7 +60,7 @@ Two images of shreds on a pink background were then fed to the extractShreds.py 
 deShredScanned.py would then calculate the similarity scores based on the comparison of the left edge of a strip, to a right edge of a strip and then through manual confirmation (automation was not possible due to time limits and constraints of scanner and shredding devices), where a 'merged' strip is shown, the user needs to verify if two shreds (potentially already previously merged) do in fact fit together. Once all manual confirmations are complete, a reconstructed image is outputed. This is NOT based on permutations, but uses the descending similarity score of the edges. This method does indeed NOT work well enough for automation, but with a better algoritm based on text detection and horizontal structure matching, automation is possible. More computer vision research and time is needed to proceed further.
 
 
-Edge Detection with contour outlines:
+**Edge Detection with contour outlines:**
 
 
 ![Scanned document 1](https://raw.githubusercontent.com/sseanik/Paper-Reconstructor/master/testImages/countourShow1.png "Scanned recontruction")
