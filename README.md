@@ -47,6 +47,14 @@ Devices & Equipment used:
 ![Scanned recontruction](https://raw.githubusercontent.com/sseanik/Paper-Reconstructor/master/testImages/photo.png "Scanned recontruction")
 
 
+Note:
+* Paper must be almost A4, cut off the top or bottom of empty bits if possible
+* Keji Strip Cut Shredder used which outputs approx 20 shreds
+* Blank side strips can be thrown away
+* HP Deskjet F2180 All in One Printer used to Scan images
+* Images scanned to 600 DPI, Colour and PNG file type
+
+
 Two images of shreds on a pink background were then fed to the extractShreds.py where contours were calculated by filtering out the saturation layer of the image. These shreds would appear curved and distorted, so they were fed into a four point transform algorithm, that when provided with the four corners of a contour, would attempt to unwarp the image and thus straightening it. The shreds were then resized and written to a directory.
 
 
