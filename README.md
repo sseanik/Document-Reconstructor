@@ -65,14 +65,20 @@ deShredScanned.py would then calculate the similarity scores based on the compar
 
 # Methods Used
 **Mean Squared Error**
+
+
 something
 
 
 **Structural Similarity**
+
+
 something
 
 
 **Four Point Transform**
+
+
 something
 
 
