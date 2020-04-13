@@ -134,8 +134,11 @@ if __name__ == '__main__':
     path = "../testImages/insta.png"
     image = Image.open(path).convert('RGB') 
 
+    SHREDS = 10
+    width, height = image.size
+
     # Given shred width of image
-    shred_width = 25
+    shred_width = width // SHREDS
 
     # Crop shreds
     shreds = getShreds(image, shred_width)
