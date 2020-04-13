@@ -59,6 +59,10 @@ Two images of shreds on a pink background were then fed to the extractShreds.py 
 
 deShredScanned.py would then calculate the similarity scores based on the comparison of the left edge of a strip, to a right edge of a strip and then through manual confirmation (automation was not possible due to time limits and constraints of scanner and shredding devices), where a 'merged' strip is shown, the user needs to verify if two shreds (potentially already previously merged) do in fact fit together. Once all manual confirmations are complete, a reconstructed image is outputed. This is NOT based on permutations, but uses the descending similarity score of the edges. This method does indeed NOT work well enough for automation, but with a better algoritm based on text detection and horizontal structure matching, automation is possible. More computer vision research and time is needed to proceed further.
 
+![Scanned document 1](https://raw.githubusercontent.com/sseanik/Paper-Reconstructor/master/testImages/countourShow1.png "Scanned recontruction")
+
+![Scanned document 2](https://raw.githubusercontent.com/sseanik/Paper-Reconstructor/master/testImages/countourShow2.png "Scanned recontruction")
+
 
 ![Scanned recontruction](https://raw.githubusercontent.com/sseanik/Paper-Reconstructor/master/testImages/forreadme.png "Scanned recontruction")
 
