@@ -10,10 +10,14 @@ I was intrigued, so I wanted to learn about the possibility of programmatically 
 The first tool was derived from the Instagram Engineering Challenge: The Unshredder (https://instagram-engineering.com/instagram-engineering-challenge-the-unshredder-7ef3f7323ab1), where in 2012 it was posed to prospective to the public to 'unshred' a shuffled image and the prize would be a free T-shirt. Unfortunately I was too late, to the party, but decided to attempt the challenge myself.
 
 Before:
+
+
 ![Instagram Challenge](https://raw.githubusercontent.com/sseanik/Paper-Reconstructor/master/testImages/insta.png "Instagram Challenge")
 
 
 After:
+
+
 ![Instagram Challenge](https://raw.githubusercontent.com/sseanik/Paper-Reconstructor/master/testImages/instaChal.png "Instagram Challenge")
 
 
