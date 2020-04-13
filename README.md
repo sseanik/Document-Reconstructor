@@ -21,7 +21,7 @@ The first tool was derived from the [Instagram Engineering Challenge: The Unshre
 ![Instagram Challenge](https://raw.githubusercontent.com/sseanik/Paper-Reconstructor/master/testImages/instaChal.png "Instagram Challenge")
 
 
-**Visual Demo (with merging shown):**
+**Visual Demonstration (with merging shown):**
 
 
 ![Alt Text](https://im7.ezgif.com/tmp/ezgif-7-7b4e7cc0538f.gif)
@@ -47,7 +47,7 @@ The next tool was an iterative prototype, regarding finding an algorithm and a m
 ![Perfect Reconstruction](https://raw.githubusercontent.com/sseanik/Paper-Reconstructor/master/testImages/recontructed.png "Perfect Reconstruction")
 
 
-**Visual Demo (with merging shown):**
+**Visual Demonstration (with merging shown):**
 
 
 ![Alt Text](https://im7.ezgif.com/tmp/ezgif-7-c4703a8cebbb.gif)
@@ -94,7 +94,7 @@ deShredScanned.py would then calculate the similarity scores based on the compar
 ![Scanned recontruction](https://raw.githubusercontent.com/sseanik/Paper-Reconstructor/master/testImages/forreadme.png "Scanned recontruction")
 
 
-[**Timelapse Demo**](https://www.youtube.com/watch?v=QCrJ-T9hO8o)
+[**Timelapse Demonstration**](https://www.youtube.com/watch?v=QCrJ-T9hO8o)
 
 
 # Methods Used
