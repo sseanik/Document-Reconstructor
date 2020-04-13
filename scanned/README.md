@@ -1,5 +1,12 @@
 # Scanned Shred Reconstructor
 
+Note:
+* Paper must be almost A4, cut off the top or bottom of empty bits if possible
+* Keji Strip Cut Shredder used which outputs approx 20 shreds
+* Blank side strips can be thrown away
+* HP Deskjet F2180 All in One Printer used to Scan images
+* Images scanned to 600 DPI, Colour and PNG file type
+
 In extractShreds.py:
 
 ```python
