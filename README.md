@@ -37,7 +37,11 @@ After:
 ![Perfect Reconstruction](https://raw.githubusercontent.com/sseanik/Paper-Reconstructor/master/testImages/recontructed.png "Perfect Reconstruction")
 
 # Scanned shreds
-The next tool was an iterative prototype, regarding scanning in 'imperfect' shreds and focused on the manipulation of the shreds, rather than the reconstruction. The process was to use my Keji Strip Cut Shredder (vertical strips) and divide the pile of shreds into two. Each half of the pile were correctly placed face down on my HP Deskjet F2180 printer/scanner, and a pink piece of paper was placed on top of the shreds. 
+The next tool was an iterative prototype, regarding scanning in 'imperfect' shreds and focused on the manipulation of the shreds, rather than the reconstruction. The process was to use my Keji Strip Cut Shredder (vertical strips) and divide the pile of shreds into two. Each half of the pile was correctly placed face down on my HP Deskjet F2180 printer/scanner, and a pink piece of paper was placed on top of the shreds. 
+
+
+
+Devices & Equipment used:
 
 
 ![Scanned recontruction](https://raw.githubusercontent.com/sseanik/Paper-Reconstructor/master/testImages/photo.png "Scanned recontruction")
