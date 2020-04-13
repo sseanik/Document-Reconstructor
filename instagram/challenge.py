@@ -131,18 +131,19 @@ def unShred(shreds, similarity):
 
 if __name__ == '__main__':
     # Location of jumbled image
-    path = "../testImages/insta.png"
+    path = "../testImages/instaout.png"
     image = Image.open(path).convert('RGB') 
 
-    SHREDS = 10
+    SHREDS = 20
     width, height = image.size
 
     # Given shred width of image
-    shred_width = 25
+    SHREDS //= 2
+    shred_width = (width // SHREDS) // 2
 
     # Crop shreds
     shreds = getShreds(image, shred_width)
-    
+
     # Calculate SSIM scores
     similarity = getSimilarityScores(shreds)
 

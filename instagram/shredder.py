@@ -18,7 +18,8 @@ def shredImage(sequence, outputPath):
 if __name__ == '__main__':
 
     # Determine how many shreds to split the image into
-    SHREDS = 10
+    SHREDS = 20
+
     path = "../testImages/insta.png"
 
     # Open the image
@@ -26,6 +27,7 @@ if __name__ == '__main__':
     shredded = Image.new('RGBA', image.size)
 
     # Gather the width, height and the shred width depending on the shred value
+    SHREDS //= 2
     width, height = image.size
     shred_width = width // SHREDS
 
@@ -34,6 +36,6 @@ if __name__ == '__main__':
     random.shuffle(sequence)
 
     # Save the shuffled/shredded file
-    outputPath = "../testImages/insta.png"
+    outputPath = "../testImages/instaout.png"
     shredImage(sequence, outputPath)
 
