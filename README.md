@@ -53,16 +53,13 @@ deShredScanned.py would then calculate the similarity scores based on the compar
 
 
 # Appendix
-![Mean Squared Error and Structural Similarity](# https://www.pyimagesearch.com/2014/09/15/python-compare-two-images/
-")
-
-![Shuffling an Image](# https://github.com/sseanik/Paper-Reconstructor/blob/master/instagram/shredder.py")
+Mean Squared Error and Structural Similarity - https://www.pyimagesearch.com/2014/09/15/python-compare-two-images/
 
 
-![Generate the contours of a subimage on a coloured background](# https://stackoverflow.com/questions/47899132/edge-detection-on-colored-background-using-opencv
-")
+Shuffling an Image - https://github.com/sseanik/Paper-Reconstructor/blob/master/instagram/shredder.py
 
 
-![Perspective transform an image using four point transform](# https://www.pyimagesearch.com/2014/08/25/4-point-opencv-getperspective-transform-example/
+Generate the contours of a subimage on a coloured background - https://stackoverflow.com/questions/47899132/edge-detection-on-colored-background-using-opencv
 
-")
+
+Perspective transform an image using four point transform - https://www.pyimagesearch.com/2014/08/25/4-point-opencv-getperspective-transform-example/
