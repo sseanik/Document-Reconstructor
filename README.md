@@ -63,6 +63,19 @@ deShredScanned.py would then calculate the similarity scores based on the compar
 ![Scanned recontruction](https://raw.githubusercontent.com/sseanik/Paper-Reconstructor/master/testImages/forreadme.png "Scanned recontruction")
 
 
+# Methods Used
+**Mean Squared Error**
+something
+
+
+**Structural Similarity**
+something
+
+
+**Four Point Transform**
+something
+
+
 # Appendix
 Mean Squared Error and Structural Similarity - https://www.pyimagesearch.com/2014/09/15/python-compare-two-images/
 
