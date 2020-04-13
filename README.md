@@ -12,7 +12,7 @@ The first tool was derived from the [Instagram Engineering Challenge: The Unshre
 Before:
 
 
-![Instagram Challenge](https://raw.githubusercontent.com/sseanik/Paper-Reconstructor/master/testImages/insta.png "Instagram Challenge")
+![Instagram Challenge](https://raw.githubusercontent.com/sseanik/Paper-Reconstructor/master/testImages/instaout.png "Instagram Challenge")
 
 
 After:
@@ -71,6 +71,12 @@ something
 
 
 **Structural Similarity**
+
+
+something
+
+
+**Edge Detection**
 
 
 something
