@@ -29,10 +29,10 @@ The first tool was derived from the [Instagram Engineering Challenge: The Unshre
 
 
 # Perfect Digital Shredding
-The next tool was an iterative prototype, regarding finding an algorithm and a method in shredding a shuffled (horizontally & one side) document. Photoshop slicing was used to begin with, but perfShredder.py was created to automate the process. These shreds (of no less than 14px) would lose no quality, have a perfect, straight, equal, rectangular shape and more emphasis was given to explore the algoirthms of 'Mean Squared Error' and 'Structural Similarity'. deShredPerfect.py takes a directory of 'perfect' shreds and automatically reconstructs the document based on the ascending Mean Squared Error comparisons of the left edge of a shred with the right edge of a shred. 
+The next tool was an iterative prototype, regarding finding an algorithm and a method in shredding a shuffled (horizontally & one side) document. Photoshop slicing was used to begin with, but perfShredder.py was created to automate the process. These shreds (of no less than 14px) would lose no quality, have a perfect, straight, equal, rectangular shape and more emphasis was given to explore the algorithms of 'Mean Squared Error' and 'Structural Similarity'. deShredPerfect.py takes a directory of 'perfect' shreds and automatically reconstructs the document based on the ascending Mean Squared Error comparisons of the left edge of a shred with the right edge of a shred. 
 
 **Note:**
-* Precropping is done to eliminate as many blank side shreds as possible
+* Pre-cropping is done to eliminate as many blank side shreds as possible
 
 **Before:**
 
@@ -64,7 +64,7 @@ The next tool was an iterative prototype, regarding scanning in 'imperfect' shre
 **Devices & Equipment used:**
 
 
-![Scanned recontruction](https://raw.githubusercontent.com/sseanik/Paper-Reconstructor/master/testImages/photo.png "Scanned recontruction")
+![Scanned reconstruction](https://raw.githubusercontent.com/sseanik/Paper-Reconstructor/master/testImages/photo.png "Scanned reconstruction")
 
 
 **Note:**
@@ -77,21 +77,21 @@ The next tool was an iterative prototype, regarding scanning in 'imperfect' shre
 Two images of shreds on a pink background were then fed to the extractShreds.py where contours were calculated by filtering out the saturation layer of the image. These shreds would appear curved and distorted, so they were fed into a four point transform algorithm, that when provided with the four corners of a contour, would attempt to unwarp the image and thus straightening it. The shreds were then resized and written to a directory.
 
 
-deShredScanned.py would then calculate the similarity scores based on the comparison of the left edge of a strip, to a right edge of a strip and then through manual confirmation (automation was not possible due to time limits and constraints of scanner and shredding devices), where a 'merged' strip is shown, the user needs to verify if two shreds (potentially already previously merged) do in fact fit together. Once all manual confirmations are complete, a reconstructed image is outputed. This is NOT based on permutations, but uses the descending similarity score of the edges. This method does indeed NOT work well enough for automation, but with a better algorithm based on text detection and horizontal structure matching, automation is possible. More computer vision research and time is needed to reach automation.
+deShredScanned.py would then calculate the similarity scores based on the comparison of the left edge of a strip, to a right edge of a strip and then through manual confirmation (automation was not possible due to time limits and constraints of scanner and shredding devices), where a 'merged' strip is shown, the user needs to verify if two shreds (potentially already previously merged) do in fact fit together. Once all manual confirmations are complete, a reconstructed image is outputted. This is NOT based on permutations, but uses the descending similarity score of the edges. This method does indeed NOT work well enough for automation, but with a better algorithm based on text detection and horizontal structure matching, automation is possible. More computer vision research and time is needed to reach automation.
 
 
 **Edge Detection with contour outlines:**
 
 
-![Scanned document 1](https://raw.githubusercontent.com/sseanik/Paper-Reconstructor/master/testImages/countourShow1.png "Scanned recontruction")
+![Scanned document 1](https://raw.githubusercontent.com/sseanik/Paper-Reconstructor/master/testImages/countourShow1.png "Scanned reconstruction")
 
-![Scanned document 2](https://raw.githubusercontent.com/sseanik/Paper-Reconstructor/master/testImages/countourShow2.png "Scanned recontruction")
+![Scanned document 2](https://raw.githubusercontent.com/sseanik/Paper-Reconstructor/master/testImages/countourShow2.png "Scanned reconstruction")
 
 
 **Manual confirmation constructed Image:**
 
 
-![Scanned recontruction](https://raw.githubusercontent.com/sseanik/Paper-Reconstructor/master/testImages/forreadme.png "Scanned recontruction")
+![Scanned reconstruction](https://raw.githubusercontent.com/sseanik/Paper-Reconstructor/master/testImages/forreadme.png "Scanned reconstruction")
 
 
 [**Timelapse Demonstration**](https://www.youtube.com/watch?v=QCrJ-T9hO8o)
