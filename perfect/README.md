@@ -35,9 +35,14 @@ In deShredPerfect.py:
 leftEdge = image[0:height, 0:X]   
 rightEdge = image[0:height, width - X:width]
 
-# If you would like to use structural similarity index instead uncomment this line, comment the MSE line and change return value to m
+# If you would like to use structural similarity index instead uncomment this line:
 s = structural_similarity(left, right)
+
+# Comment the MSE line and change return value to s
 # Compute the mean squared error 
 # m = mse(left, right)
 return s
+
+# Lastly change this line in def unShred() to:
+for j in sorted(similarity, key=lambda d: list(d.keys()), reverse=True):
 ```
