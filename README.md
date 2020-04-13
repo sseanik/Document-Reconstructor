@@ -25,11 +25,15 @@ After:
 The next tool was an iterative process regarding finding an algorithm and method in shredding a shuffled (horizontally & one side) document. Photoshop slicing was used at the beginning, but a shredding python tool was created to automate the process. These shreds (of no less than 14px) would lose no quality, have a perfect, straight, equal, rectangular shape and more emphasis was given to the algoirthms of 'Mean Squared Error' and 'Structural Similarity'. A solution was made that was able to automatically choose from a directory of 'perfect' shreds and automatically reconstruct the document.
 
 Before:
+
+
 ![Perfect Reconstruction](https://raw.githubusercontent.com/sseanik/Paper-Reconstructor/master/testImages/setup.png
  "Perfect Reconstruction")
 
 
 After:
+
+
 ![Perfect Reconstruction](https://raw.githubusercontent.com/sseanik/Paper-Reconstructor/master/testImages/recontructed.png "Perfect Reconstruction")
 
 # Scanned shreds
@@ -40,6 +44,7 @@ Two images of shreds on a pink background were then fed to the extractShreds.py 
 
 
 deShredScanned.py would then calculate the similarity scores based on the comparison of the left edge of a strip, to a right edge of a strip and then manual checking (automation was not possible due to time limits and constraints of scanner and shredding devices) would be needed to confirm if two shreds (potentially already previously merged) do in fact fit together.
+
 
 ![Scanned recontruction](https://raw.githubusercontent.com/sseanik/Paper-Reconstructor/master/testImages/forreadme.png "Scanned recontruction")
 
