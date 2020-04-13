@@ -22,10 +22,10 @@ cv2.imwrite(f"../testImages/recontructed.png", final)
 ```
 
 
-**shredder.py** takes an image, extracts x amount of shreds, shuffles them and stores them into a directory. Each shred will automatically be adjusted to a width of 14px, if width is less than 14px
+**perfShredder.py** takes an image, extracts x amount of shreds, shuffles them and stores them into a directory. Each shred will automatically be adjusted to a width of 14px, if width is less than 14px
 
 
-**challenge.py** takes a directory of x amount of shreds, then calcuates similarity scores based on the left edge of a strip compared to the right edge of another strip and then automatically matches and combines shreds and finally outputs a reconstructed image.
+**deShredPerfect.py** takes a directory of x amount of shreds, then calcuates similarity scores based on the left edge of a strip compared to the right edge of another strip and then automatically matches and combines shreds and finally outputs a reconstructed image.
 
 
 In deShredPerfect.py:
