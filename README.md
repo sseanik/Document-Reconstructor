@@ -54,6 +54,7 @@ The next tool was an iterative prototype, regarding finding an algorithm and a m
 
 
 # Scanned shreds
+_Proof of Concept. Faster than permutation confirmation matching, but slower than human physically matching._
 The next tool was an iterative prototype, regarding scanning in 'imperfect' shreds and focused on the manipulation of the shreds, rather than the reconstruction. The process was to use my Keji Strip Cut Shredder (vertical strips) and divide the pile of shreds into two. Each half of the pile was correctly placed face down on my HP Deskjet F2180 printer/scanner, and a pink piece of paper was placed on top of the shreds. 
 
 
