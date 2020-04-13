@@ -94,6 +94,9 @@ deShredScanned.py would then calculate the similarity scores based on the compar
 ![Scanned recontruction](https://raw.githubusercontent.com/sseanik/Paper-Reconstructor/master/testImages/forreadme.png "Scanned recontruction")
 
 
+[Timelapse Demo](https://www.youtube.com/watch?v=QCrJ-T9hO8o)
+
+
 # Methods Used
 **Mean Squared Error**
 
