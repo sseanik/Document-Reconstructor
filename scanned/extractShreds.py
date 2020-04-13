@@ -137,6 +137,14 @@ if __name__ == '__main__':
     contours1 = getContours(image1, first)
     contours2 = getContours(image2, second)
 
+    demo1 = image1.copy()
+    cv2.drawContours(demo1, contours1, -1, (0, 255, 0), 10)
+    cv2.imwrite(f"../testImages/demoContour1.png", demo1) 
+
+    demo2 = image2.copy()
+    cv2.drawContours(demo2, contours2, -1, (0, 255, 0), 10) 
+    cv2.imwrite(f"../testImages/demoContour2.png", demo2) 
+
     # Unwarp and separate each shred into its own image
     shreds1 = getShreds(image1, contours1)
     shreds2 = getShreds(image2, contours2)
