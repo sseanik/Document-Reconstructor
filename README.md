@@ -40,13 +40,13 @@ After:
 The next tool was an iterative process regarding scanning in 'imperfect' shreds and was focused on manipulation of the shreds, rather than automating the reconstruction. The process was to use my Keji Strip Cut Shredder (vertical strips) and divide the pile of shreds into two. Half were correctly placed face down on my HP Deskjet F2180 printer/scanner, and a pink piece of paper was placed above. 
 
 
+![Scanned recontruction](https://raw.githubusercontent.com/sseanik/Paper-Reconstructor/master/testImages/photo.png "Scanned recontruction")
+
+
 Two images of shreds on a pink background were then fed to the extractShreds.py where contours were calculated by filtering out the saturation layer of the image. These shreds would appear curved and distorted, so they were fed into a four point transform algorithm, that when provided with the four corners of a contour, would attempt to unwarp the image and thus straightening it. The shreds were then resized and written to a directory.
 
 
 deShredScanned.py would then calculate the similarity scores based on the comparison of the left edge of a strip, to a right edge of a strip and then manual checking (automation was not possible due to time limits and constraints of scanner and shredding devices) would be needed to confirm if two shreds (potentially already previously merged) do in fact fit together.
-
-
-![Scanned recontruction](https://raw.githubusercontent.com/sseanik/Paper-Reconstructor/master/testImages/photo.png "Scanned recontruction")
 
 
 ![Scanned recontruction](https://raw.githubusercontent.com/sseanik/Paper-Reconstructor/master/testImages/forreadme.png "Scanned recontruction")
