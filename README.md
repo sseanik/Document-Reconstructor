@@ -1,4 +1,4 @@
-# Paper-Reconstructor
+# Document Reconstructor
 Tools to reconstruct shredded paper documents, as my 'Something Awesome' project, for my Security Engineering Course.
 
 My lecturer, Richard Buckland, spoke about the aspect of physical security and how he would shred a document, shred the shreds, eat some of them, throw different pieces into different bins and burn the rest. Since not everyone is Richard Buckland, most of the world resorts to either scrunching up the paper and tossing it away, or using a paper shredder.
