@@ -101,30 +101,26 @@ deShredScanned.py would then calculate the similarity scores based on the compar
 **Mean Squared Error**
 
 
-The mean squared error calculates how close a 'regression line' is to a set of points. How this works, is the function takes the distances from the points to the regression line, which are called 'errors' and then they are squared. You can also classify these 'errors' as deviations from an expected value or point. We square it in order to remove any negative signs. Overall, we are finding the average of a set of errors. We get closer the line of best fit (or in this case similairty between images) when the mean squared error is smaller.
+The mean squared error calculates how close a 'regression line' is to a set of points. How this works, is the function takes the distances from the points to the regression line, which are called 'errors' and then they are squared. You can also classify these 'errors' as deviations from an expected value or point. We square it in order to remove any negative signs. Overall, we are finding the average of a set of errors. We get closer the line of best fit (or in this case similarity between images) when the mean squared error is smaller.
 
 
 **Structural Similarity**
 
 
-The structural similarity (SSIM) index is a way of predicting the perceived quality of images. SSIM is used to measure the similarity between two images, and acts as a measurement. Structural similairity in this isntance, works more as a percept-based model which takes into account image degradation as perceived change in structural information. It also involves both luminance masking and constrast masking. Structural information itself, is the notion that pixels have strong 'inter-dependencies', especially when they have neighbours. These dependencies carry important information about the visual structure. 
-
-is a method for predicting the perceived quality of digital television and cinematic pictures, as well as other kinds of digital images and videos. The basic model was developed in the Laboratory for Image and Video Engineering (LIVE) at The University of Texas at Austin and further developed jointly with the Laboratory for Computational Vision (LCV) at New York University. Further variants of the model have been developed in the Image and Visual Computing Laboratory at University of Waterloo and have been commercially marketed.
+The structural similarity (SSIM) index is a way of predicting the perceived quality of images. SSIM is used to measure the similarity between two images, and acts as a measurement. Structural similarity in this instance, works more as a percept-based model which considers image degradation as perceived change in structural information. It also involves both luminance masking and contrast masking. Structural information itself, is the notion that pixels have strong 'inter-dependencies', especially when they have neighbours. These dependencies carry important information about the visual structure. 
 
 
 **Image Segmentation**
 
 
-Segmentation involves separating an image into different regions containing pixels with similar attributes. The regions need to be strongly related to specific objects or features. Thresholding is a segmentation technique where an image is transformed into a binary image which is viewed as a binary region map. This map contains different disjoint regions, one containing pixels with input data vlues smaller than a threshold and another relating to the input values equal to or above the threshold.
+Segmentation involves separating an image into different regions containing pixels with similar attributes. The regions need to be strongly related to specific objects or features. Thresholding is a segmentation technique where an image is transformed into a binary image which is viewed as a binary region map. This map contains different disjoint regions, one containing pixels with input data values smaller than a threshold and another relating to the input values equal to or above the threshold.
 
-Colour segmentation can be more accurate because of more information present at the pixel level compared to greyscale imagwes. RGB colour representations have strongly interrelated colour components and furthermore, HSV was designed to exclude redundancy and helps when attempting to determine actual objects or background colours irrespective of illumination. 
-
-
-**Four Point Transform**
+Colour segmentation can be more accurate because of more information present at the pixel level compared to greyscale images. RGB colour representations have strongly interrelated colour components and furthermore, HSV was designed to exclude redundancy and helps when attempting to determine actual objects or background colours irrespective of illumination. 
 
 
-In Perspective Transformation, , we can change the perspective of a given image or video for getting better insights about the required information. In Perspective Transformation, we need provide the points on the image from which want to gather information by changing the perspective. We also need to provide the points inside which we want to display our image. Then, we get the perspective transform from the two given set of points and wrap it with the original image.
+**Perspective Transform**
 
+In Perspective Transformation, we can alter the perspective of an image and attempt to 'straighten' or 'unwarp' the image information. We provide the points of the image for which we want to gather information, by changing the perspective. In the four-point transform case, we provide the 4 corners of a distorted rectangle which allows us to alter the image. Before altering, the destination image needs to have pre-determined dimensions which are calculated based on the largest distance between the bottom-right and bottom-left x-coordinates or the top-right and top-left x-coordinates, and similarly for the y-coordinates. A transformation matrix is applied where the image and the destination dimensions are given to output the altered image.
 
 
 # Appendix
