@@ -5,6 +5,8 @@ My lecturer, Richard Buckland, spoke about the aspect of physical security and h
 
 I was intrigued, so I wanted to learn about the possibility of programmatically reconstructing a shredded document. I have no computer vision background whatsoever and this was more for my security curiosity. These tools are broken into three different methods/prototypes.
 
+[**Overall Demo**](https://youtu.be/7-FqrH2uUbU)
+
 
 # Instagram Engineering Challenge
 The first tool was derived from the [Instagram Engineering Challenge: The Unshredder](https://instagram-engineering.com/instagram-engineering-challenge-the-unshredder-7ef3f7323ab1), where in 2012 it was posed to the public to 'unshred' a shuffled image. The winner(s) earned a free T-shirt prize, but unfortunately I was a bit late to the party. shredder.py takes a source image, and shuffles it with a shred output number. challenge.py takes a shuffled image and a given a number of shreds, unshuffles the image. Descending order of structural similarity was used to determine if two shreds should be merged.
