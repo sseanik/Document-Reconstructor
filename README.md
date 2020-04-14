@@ -27,9 +27,6 @@ The first tool was derived from the [Instagram Engineering Challenge: The Unshre
 ![Instagram Challenge](https://raw.githubusercontent.com/sseanik/Paper-Reconstructor/master/testImages/gif1.gif)
 
 
-
-
-
 # Perfect Digital Shredding
 The next tool was an iterative prototype, regarding finding an algorithm and a method in shredding a shuffled (horizontally & one side) document. Photoshop slicing was used to begin with, but perfShredder.py was created to automate the process. These shreds (of no less than 14px) would lose no quality, have a perfect, straight, equal, rectangular shape and more emphasis was given to explore the algorithms of 'Mean Squared Error' and 'Structural Similarity'. deShredPerfect.py takes a directory of 'perfect' shreds and automatically reconstructs the document based on the ascending Mean Squared Error comparisons of the left edge of a shred with the right edge of a shred. 
 
@@ -49,13 +46,10 @@ The next tool was an iterative prototype, regarding finding an algorithm and a m
 ![Perfect Reconstruction](https://raw.githubusercontent.com/sseanik/Paper-Reconstructor/master/testImages/recontructed.png "Perfect Reconstruction")
 
 
-**Visual Demonstration (with merging shown):**
+**Visual Demonstration (with merging shown):** ~ [**Youtube Link**](https://youtu.be/-rDarDJEVzc)
 
 
 ![Perfect Reconstruction](https://raw.githubusercontent.com/sseanik/Paper-Reconstructor/master/testImages/gif2.gif)
-
-
-[**Youtube Link**](https://youtu.be/-rDarDJEVzc)
 
 
 # Scanned shreds
