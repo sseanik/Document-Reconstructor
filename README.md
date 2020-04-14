@@ -24,7 +24,7 @@ The first tool was derived from the [Instagram Engineering Challenge: The Unshre
 **Visual Demonstration (with merging shown):**
 
 
-![Instagram Challenge](https://im2.ezgif.com/tmp/ezgif-2-8c3a9f628450.gif)
+![Instagram Challenge](https://raw.githubusercontent.com/sseanik/Paper-Reconstructor/master/testImages/gif1.gif)
 
 
 
@@ -50,7 +50,7 @@ The next tool was an iterative prototype, regarding finding an algorithm and a m
 **Visual Demonstration (with merging shown):**
 
 
-![Perfect Reconstruction](https://im7.ezgif.com/tmp/ezgif-7-c4703a8cebbb.gif)
+![Perfect Reconstruction](https://raw.githubusercontent.com/sseanik/Paper-Reconstructor/master/testImages/gif2.gif)
 
 
 # Scanned shreds
