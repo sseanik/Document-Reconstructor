@@ -107,7 +107,7 @@ The mean squared error calculates how close a 'regression line' is to a set of p
 **Structural Similarity**
 
 
-The structural similarity (SSIM) index is a way of predicting the perceived quality of images. SSIM is used to measure the similarity between two images, and acts as a measurement. Structural similarity in this instance, works more as a percept-based model which considers image degradation as perceived change in structural information. It also involves both luminance masking and contrast masking. Structural information itself, is the notion that pixels have strong 'inter-dependencies', especially when they have neighbours. These dependencies carry important information about the visual structure. 
+The structural similarity (SSIM) index is a way of predicting the perceived quality of images. SSIM is used to measure the similarity between two images, and acts as a measurement. Structural similarity in this instance, works more as a perception-based model which considers image degradation as a perceived change in structural information. It also involves both luminance masking and contrast masking. Structural information itself, is the notion that pixels have strong 'inter-dependencies', especially when they have neighbours. These dependencies carry important information about the visual structure. 
 
 
 **Image Segmentation**
@@ -115,7 +115,7 @@ The structural similarity (SSIM) index is a way of predicting the perceived qual
 
 Segmentation involves separating an image into different regions containing pixels with similar attributes. The regions need to be strongly related to specific objects or features. Thresholding is a segmentation technique where an image is transformed into a binary image which is viewed as a binary region map. This map contains different disjoint regions, one containing pixels with input data values smaller than a threshold and another relating to the input values equal to or above the threshold.
 
-Colour segmentation can be more accurate because of more information present at the pixel level compared to greyscale images. RGB colour representations have strongly interrelated colour components and furthermore, HSV was designed to exclude redundancy and helps when attempting to determine actual objects or background colours irrespective of illumination. 
+Colour segmentation can be more accurate because of more information present at the pixel level compared to greyscale images. RGB colour representations have strongly interrelated colour components and furthermore, HSV is able to exclude redundancy and helps when attempting to determine actual objects or background colours irrespective of illumination. 
 
 
 **Perspective Transform**
