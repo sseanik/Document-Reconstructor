@@ -24,7 +24,7 @@ The first tool was derived from the [Instagram Engineering Challenge: The Unshre
 **Visual Demonstration (with merging shown):**
 
 
-![[Instagram Challenge](https://im7.ezgif.com/tmp/ezgif-7-7b4e7cc0538f.gif)
+![[Instagram Challenge](https://im2.ezgif.com/tmp/ezgif-2-41ab05aa28c7.gif)
 
 
 
