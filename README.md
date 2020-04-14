@@ -25,6 +25,8 @@ The first tool was derived from the [Instagram Engineering Challenge: The Unshre
 
 
 ![Instagram Challenge](https://raw.githubusercontent.com/sseanik/Paper-Reconstructor/master/testImages/gif1.gif)
+
+
 https://youtu.be/kNKJNT0cA0A
 
 
@@ -52,6 +54,8 @@ The next tool was an iterative prototype, regarding finding an algorithm and a m
 
 
 ![Perfect Reconstruction](https://raw.githubusercontent.com/sseanik/Paper-Reconstructor/master/testImages/gif2.gif)
+
+
 https://youtu.be/-rDarDJEVzc
 
 
