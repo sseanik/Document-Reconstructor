@@ -5,7 +5,7 @@ My lecturer, Richard Buckland, spoke about the aspect of physical security and h
 
 I was intrigued, so I wanted to learn about the possibility of programmatically reconstructing a shredded document. I have no computer vision background whatsoever and this was more for my security curiosity. These tools are broken into three different methods/prototypes.
 
-[**Overall Demo**](https://youtu.be/7-FqrH2uUbU)
+[**Overall Demo Video**](https://youtu.be/7-FqrH2uUbU)
 
 
 # Instagram Engineering Challenge
